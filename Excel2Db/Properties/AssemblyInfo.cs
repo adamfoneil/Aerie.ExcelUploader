@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Excel2Db")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Aerie.ExcelLoader")]
+[assembly: AssemblyDescription("A utility for importing spreadsheets into SQL Server")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Excel2Db")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("Aerie Engineering")]
+[assembly: AssemblyProduct("Aerie.ExcelLoader")]
+[assembly: AssemblyCopyright("Copyright © Aerie Engineering 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

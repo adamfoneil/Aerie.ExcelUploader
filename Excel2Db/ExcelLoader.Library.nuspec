@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Aerie.ExceUploader</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/adamosoftware/Aerie.ExcelUploader/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/adamosoftware/Aerie.ExcelUploader</projectUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>    
+    <copyright>Copyright (c) Aerie Engineering 2018</copyright>
+    <tags>excel sql-server</tags>
+  </metadata>
+</package>
