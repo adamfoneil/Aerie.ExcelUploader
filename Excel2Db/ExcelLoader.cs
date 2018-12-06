@@ -13,16 +13,18 @@ namespace AerieEngineering
 		{
 		}
 
-		public void Save(string fileName, SqlConnection connection, string schemaName, string tableName, bool truncateFirst = false)
+		public int Save(string fileName, SqlConnection connection, string schemaName, string tableName, bool truncateFirst = false)
 		{
 			var ds = Read(fileName);
 			SaveDataTable(connection, ds.Tables[0], schemaName, tableName, truncateFirst);
+			return ds.Tables[0].Rows.Count;
 		}
 
-		public void Save(Stream stream, SqlConnection connection, string schemaName, string tableName, bool truncateFirst = false)
+		public int Save(Stream stream, SqlConnection connection, string schemaName, string tableName, bool truncateFirst = false)
 		{
 			var ds = Read(stream);
 			SaveDataTable(connection, ds.Tables[0], schemaName, tableName, truncateFirst);
+			return ds.Tables[0].Rows.Count;
 		}
 
 		private void SaveDataTable(SqlConnection connection, DataTable table, string schemaName, string tableName, bool truncateFirst)
